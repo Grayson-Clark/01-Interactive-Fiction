@@ -1,0 +1,208 @@
+{
+    "passages": [
+      {
+        "text": "You are in your own room. The carpet is a navy blue and in front of you is a CRT television with an \"Uber Tinendo System\" game console plugged in. You're currently play a game called \"Interactive Fiction\".\n\n[[Look around the room->The room]]\n[[Focus on the game->Interactive Fiction]]\n[[Go to sleep->Sleep]]\n",
+        "links": [
+          {
+            "name": "Look around the room",
+            "link": "The room",
+            "pid": "2"
+          },
+          {
+            "name": "Focus on the game",
+            "link": "Interactive Fiction",
+            "pid": "3"
+          },
+          {
+            "name": "Go to sleep",
+            "link": "Sleep",
+            "pid": "4"
+          }
+        ],
+        "name": "Your Room",
+        "pid": "1",
+        "position": {
+          "x": "404",
+          "y": "170.5"
+        }
+      },
+      {
+        "text": "You look around the room. This is the room you grew up in. You had your crib, first bed, and now a lofted bed in this room. It holds many memories, and as you look at the pictures and posters around the room, it reminds you of your childhood.\n\n[[Better times...->Your Room]]",
+        "links": [
+          {
+            "name": "Better times...",
+            "link": "Your Room",
+            "pid": "1"
+          }
+        ],
+        "name": "The room",
+        "pid": "2",
+        "position": {
+          "x": "173",
+          "y": "197.5"
+        }
+      },
+      {
+        "text": "You look at the screen, the game is on the main menu and has three menus:\n\n[[Play->Play]]\n[[Options->Options]]\n[[Credits->Credits]]",
+        "links": [
+          {
+            "name": "Play",
+            "link": "Play",
+            "pid": "5"
+          },
+          {
+            "name": "Options",
+            "link": "Options",
+            "pid": "6"
+          },
+          {
+            "name": "Credits",
+            "link": "Credits",
+            "pid": "7"
+          }
+        ],
+        "name": "Interactive Fiction",
+        "pid": "3",
+        "position": {
+          "x": "417",
+          "y": "365.5"
+        }
+      },
+      {
+        "text": "You decide to go to sleep, it's not even that late, you just aren't feeling like doing much today.\n\n[[Wake up the next morning->Your Room]]",
+        "links": [
+          {
+            "name": "Wake up the next morning",
+            "link": "Your Room",
+            "pid": "1"
+          }
+        ],
+        "name": "Sleep",
+        "pid": "4",
+        "position": {
+          "x": "724",
+          "y": "180.5"
+        }
+      },
+      {
+        "text": "You start playing through the game.\nIt's a sort of choose-your-own adventure style \"story\".\nYou make decisions for characters and influence the direction the story goes.\n\n[[This game isn't that bad->Play2]]",
+        "links": [
+          {
+            "name": "This game isn't that bad",
+            "link": "Play2",
+            "pid": "10"
+          }
+        ],
+        "name": "Play",
+        "pid": "5",
+        "position": {
+          "x": "408",
+          "y": "533.5"
+        }
+      },
+      {
+        "text": "An options page pops up.\n\n[[Back to main menu->Interactive Fiction]] \n[[Adjust brightness->Brightness]]\n[[Adjust volume->Volume]]\n",
+        "links": [
+          {
+            "name": "Back to main menu",
+            "link": "Interactive Fiction",
+            "pid": "3"
+          },
+          {
+            "name": "Adjust brightness",
+            "link": "Brightness",
+            "pid": "8"
+          },
+          {
+            "name": "Adjust volume",
+            "link": "Volume",
+            "pid": "9"
+          }
+        ],
+        "name": "Options",
+        "pid": "6",
+        "position": {
+          "x": "176",
+          "y": "396.5"
+        }
+      },
+      {
+        "text": "The credits slowly roll by.\nYou try to skip them by pressing the Start button, but nothing happens.\nYou regret clicking on this menu.\n\n[[Finally->Interactive Fiction]]",
+        "links": [
+          {
+            "name": "Finally",
+            "link": "Interactive Fiction",
+            "pid": "3"
+          }
+        ],
+        "name": "Credits",
+        "pid": "7",
+        "position": {
+          "x": "688",
+          "y": "395.5"
+        }
+      },
+      {
+        "text": "You begin to turn the brightness up and accidentally crank it up to max.\nIt hurts your eyes and you quickly readjust it back down.\nYou're ready to play\n\n[[Play->Play]] ",
+        "links": [
+          {
+            "name": "Play",
+            "link": "Play",
+            "pid": "5"
+          }
+        ],
+        "name": "Brightness",
+        "pid": "8",
+        "position": {
+          "x": "19",
+          "y": "419.5"
+        }
+      },
+      {
+        "text": "You crank up the volume and settle in, ready to play.\n\n[[Play->Play]] ",
+        "links": [
+          {
+            "name": "Play",
+            "link": "Play",
+            "pid": "5"
+          }
+        ],
+        "name": "Volume",
+        "pid": "9",
+        "position": {
+          "x": "113",
+          "y": "538.5"
+        }
+      },
+      {
+        "text": "After playing through it for a while, you appreciate how your choices actually affect things that happen later in the game. Your choices are actually meaningful.\n\n[[Good game->Good game]]",
+        "links": [
+          {
+            "name": "Good game",
+            "link": "Good game",
+            "pid": "11"
+          }
+        ],
+        "name": "Play2",
+        "pid": "10",
+        "position": {
+          "x": "408",
+          "y": "683.5"
+        }
+      },
+      {
+        "text": "After finishing the game a few days later, you hop online and give it a good rating and a positive review.\n\nThe end.",
+        "name": "Good game",
+        "pid": "11",
+        "position": {
+          "x": "408",
+          "y": "833.5"
+        }
+      }
+    ],
+    "name": "Project 01",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.11",
+    "ifid": "BC609E27-01D8-4717-8F03-DE50AAB7EAFF"
+  }
